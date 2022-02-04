@@ -1,4 +1,7 @@
-
+body {
+    background-color: lightpink;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
@@ -23,3 +26,18 @@
 
 
 /* Gallery Style */
+.gallery-expand .gallery-curve-wrapper {
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px #0000001a;
+    background: white;
+    padding-top: 20px;
+    
+}
+
+
+.btn-large {
+    margin-bottom: 20px;
+}
+
+
