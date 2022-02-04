@@ -1,4 +1,4 @@
-var name1 = "alex";
+var name1 = "ax";
 var name2 = "andres";
 
 var getNamesPercent = function () {
@@ -6,7 +6,7 @@ var getNamesPercent = function () {
         "method": "GET",
         "headers": {
             "x-rapidapi-host": "love-calculator.p.rapidapi.com",
-            "x-rapidapi-key": "bf6e5885b6msh54e19b4855fac17p17a2c8jsn817df9b49051"
+            "x-rapidapi-key": apiKey
         }
     })
         .then(function (response) {
