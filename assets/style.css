@@ -1,16 +1,75 @@
+:root {
+    --pink-light: #ff7eb4;
+    --pink: #ff2581;
+  }
+
+
+
 body {
-    background-color: lightpink;
+    background-color: pink;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h1 {
+    color: white;
+    text-shadow: 1px 1px 5px black;
 
+}
 
-
-
-
-
-
-
+/* Heart */
+.container {
+    position: relative;
+    animation: .8s beat infinite;
+  }
+      
+  .heart {
+    position: relative;
+    background-color: red;
+    display: inline-block;
+    height: 60px;
+    top:0;
+    left:0;
+    transform: rotate(-45deg);
+    width:60px;
+  }
+    
+  .heart:before, .heart:after {
+    content:"";
+    background-color: red;
+    border-radius:50%;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    width: 60px;
+    }
+    
+  .heart:before {
+    top:-30px;
+    left:0;}
+    
+  .heart:after {
+    left:30px;
+    top:0;}
+    
+  @keyframes beat {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.1);
+    }
+    40% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
 
 
 
@@ -38,6 +97,7 @@ body {
 
 .btn-large {
     margin-bottom: 20px;
+    background-color: palevioletred;
 }
 
 
