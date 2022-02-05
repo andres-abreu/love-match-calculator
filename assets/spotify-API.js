@@ -23,6 +23,34 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Display Spotify Playlist on Button click
 $(document).ready(function(){
     $(".gallery").hide();
