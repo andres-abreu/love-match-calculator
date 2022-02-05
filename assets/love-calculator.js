@@ -30,7 +30,7 @@ var getNamesPercent = function () {
 }
 getNamesPercent();
 
-var displayPercent = function(percent) {
+var displayPercent = function (percent) {
     console.log(percent)
 }
 

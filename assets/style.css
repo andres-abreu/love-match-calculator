@@ -14,6 +14,32 @@ h1 {
     color: white;
     text-shadow: 1px 1px 5px black;
 
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+
+}
+
+/* h1 Pulse effect */
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);	
+	}
+
+	70% {
+		transform: scale(1);	
+	}
+
+	100% {
+		transform: scale(0.95);	
+	}
+}
+
+#content-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
 }
 
 /* Heart */
@@ -31,8 +57,10 @@ h1 {
     left:0;
     transform: rotate(-45deg);
     width:60px;
+    margin: 10em;
   }
-    
+
+  /* Heart Pulse effect */
   .heart:before, .heart:after {
     content:"";
     background-color: red;
@@ -72,18 +100,6 @@ h1 {
   
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Gallery Style */
 .gallery-expand .gallery-curve-wrapper {
     cursor: pointer;
@@ -98,6 +114,17 @@ h1 {
 .btn-large {
     margin-bottom: 20px;
     background-color: palevioletred;
+    
 }
 
+/* Modal */
+
+.modal-trigger {
+    margin-top: 2em;
+}
+
+
+
+
+/* Spotify Style */
 
