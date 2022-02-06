@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@andres-abreu 
-awicks44
-/
-JavaScript-SpotifyAPI
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-JavaScript-SpotifyAPI/app.js /
-@awicks44
-awicks44 Updated app.js file
-Latest commit 5bc86fc on Jun 21, 2020
- History
- 1 contributor
-266 lines (214 sloc)  8.47 KB
-   
 const APIController = (function() {
     
     const clientId = 'ADD YOUR CLIENT ID';
@@ -291,16 +263,3 @@ APPController.init();
 
 
 
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
