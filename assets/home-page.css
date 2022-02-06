@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(254, 226, 245);
+}
+
+h1 {
+    font-family: 'Playball', cursive;
+    font-size: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+.calculate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: 1px solid rgb(18, 16, 16);
+    padding-bottom: 5em;
+
+    
+}
+
+.row {
+    width: 100%;
+    margin-top: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 5em;
+}
