@@ -48,6 +48,11 @@
 
 
 
+
+
+
+
+
 //------------Button for Pexels--------------
 
 //Display Images on Button click
@@ -58,3 +63,4 @@ $(document).ready(function () {
         $(".gallery").toggle();
     });
 });
+

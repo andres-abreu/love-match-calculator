@@ -14,23 +14,14 @@
 
 
 
-
-
-
-
-
-
-
-
 //-------------MODAL on Button click---------------
 
 $(document).ready(function () {
     $('.modal').modal();
 });
 
-
-//Not-compatible 
+//Compatible
 function toggleModal() {
-    var instance = M.Modal.getInstance($("#modal2"))
+    var instance = M.Modal.getInstance($("#modal1"))
     instance.open();
 }
