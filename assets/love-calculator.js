@@ -1,5 +1,6 @@
-var name1 = "ax";
-var name2 = "andres";
+var name1 = "Bob";
+var name2 = "Anne";
+
 
 var getNamesPercent = function () {
     fetch("https://love-calculator.p.rapidapi.com/getPercentage?sname=" + name1 + "&fname=" + name2, {
@@ -30,9 +31,19 @@ var getNamesPercent = function () {
 }
 getNamesPercent();
 
-var displayPercent = function (percent) {
-    console.log(percent)
+var yourName = document.querySelector("#your_name")
+var theirName = document.querySelector("#their_name")
+var calculateBtn = document.getElementById("calculate-btn")
+
+// function getNames(nameOne, nameTwo) {
+//     calculateBtn.addEventListener('click', e => {
+//         console.log("executed")
+//     })
+// }
+// getNames()
+
+function calculatePercent() {
+    getNamesPercent();
 }
 
-
-
+calculateBtn.addEventListener('click', calculatePercent)
