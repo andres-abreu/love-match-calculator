@@ -113,7 +113,10 @@ h1 {
 
 .btn-large {
     margin-bottom: 20px;
+    border-radius: 40px;
     background-color: palevioletred;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     
 }
 
@@ -121,6 +124,7 @@ h1 {
 
 .modal-trigger {
     margin-top: 2em;
+    background-color: rgb(238, 27, 238);
 }
 
 
