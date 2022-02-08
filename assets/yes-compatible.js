@@ -30,25 +30,6 @@ fetch("https://v1.nocodeapi.com/andresabreu/spotify/jRyLOewVmZIgHgYl/search?q=lo
 
 //-------------MODAL on Button click---------------
 
-$(document).ready(function () {
+$(document).ready(function(){
     $('.modal').modal();
-});
-
-
-//Not-compatible 
-function toggleModal() {
-    var instance = M.Modal.getInstance($("#modal"))
-    instance.open();
-}
-
-
-
-
-
-
-
-
-
-
-
-
+  });
