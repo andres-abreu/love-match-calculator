@@ -1,18 +1,18 @@
-var spotifyImg1 = document.querySelector("#spotify-img-1")
-var spotifyTitle1 = document.querySelector("#spotify-title-1")
-var spotifyArtistname1 = document.querySelector("#spotify-artist-name-1")
+var spotifyImg5 = document.querySelector("#spotify-img-5")
+var spotifyTitle5 = document.querySelector("#spotify-title-5")
+var spotifyArtistname5 = document.querySelector("#spotify-artist-name-5")
 
-var spotifyImg2 = document.querySelector("#spotify-img-2")
-var spotifyTitle2 = document.querySelector("#spotify-title-2")
-var spotifyArtistname2 = document.querySelector("#spotify-artist-name-2")
+var spotifyImg6 = document.querySelector("#spotify-img-6")
+var spotifyTitle6 = document.querySelector("#spotify-title-6")
+var spotifyArtistname6 = document.querySelector("#spotify-artist-name-6")
 
-var spotifyImg3 = document.querySelector("#spotify-img-3")
-var spotifyTitle3 = document.querySelector("#spotify-title-3")
-var spotifyArtistname3 = document.querySelector("#spotify-artist-name-3")
+var spotifyImg7 = document.querySelector("#spotify-img-7")
+var spotifyTitle7 = document.querySelector("#spotify-title-7")
+var spotifyArtistname7 = document.querySelector("#spotify-artist-name-7")
 
-var spotifyImg4 = document.querySelector("#spotify-img-4")
-var spotifyTitle4 = document.querySelector("#spotify-title-4")
-var spotifyArtistname4 = document.querySelector("#spotify-artist-name-4")
+var spotifyImg8 = document.querySelector("#spotify-img-8")
+var spotifyTitle8 = document.querySelector("#spotify-title-8")
+var spotifyArtistname8 = document.querySelector("#spotify-artist-name-8")
 
 
 
@@ -35,15 +35,15 @@ fetch("https://v1.nocodeapi.com/andresabreu/spotify/jRyLOewVmZIgHgYl/search?q=I 
         spotifyImg1.setAttribute("src", result.albums.items[0].images[2].url);
         spotifyArtistname1.textContent = result.albums.items[0].artists[0].name;
 
-        spotifyTitle2.textContent = result.albums.items[1].name;
+        spotifyTitle2.textContent = result.albums.items[6].name;
         spotifyImg2.setAttribute("src", result.albums.items[1].images[2].url);
-        spotifyArtistname2.textContent = result.albums.items[1].artists[0].name;
+        spotifyArtistname2.textContent = result.albums.items[1].artists[].name;
 
-        spotifyTitle3.textContent = result.albums.items[2].name;
+        spotifyTitle3.textContent = result.albums.items[7].name;
         spotifyImg3.setAttribute("src", result.albums.items[2].images[2].url);
         spotifyArtistname3.textContent = result.albums.items[2].artists[0].name;
         
-        spotifyTitle4.textContent = result.albums.items[3].name;
+        spotifyTitle4.textContent = result.albums.items[8].name;
         spotifyImg4.setAttribute("src", result.albums.items[3].images[2].url);
         spotifyArtistname4.textContent = result.albums.items[3].artists[0].name;
 
