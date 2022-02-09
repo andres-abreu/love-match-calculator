@@ -55,7 +55,7 @@ fetch("https://v1.nocodeapi.com/andresabreu/spotify/jRyLOewVmZIgHgYl/search?q=I 
     })
     .catch(error => console.log('error', error));
 
-
+                         
 
 
 

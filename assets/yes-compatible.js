@@ -68,10 +68,10 @@ fetch("https://v1.nocodeapi.com/andresabreu/spotify/jRyLOewVmZIgHgYl/search?q=lo
 
 
 
-
+           
 
 //-------------MODAL on Button click---------------
 
 $(document).ready(function(){
     $('.modal').modal();
-  });
+  });                                       
