@@ -82,5 +82,9 @@ h1 {
 
 
 
-/* Spotify Style */
-
+.play-again {
+    margin-top: 8em;
+    background-color: rgb(52, 48, 48);
+    border: 3px dotted rgb(241, 36, 36);
+    border-radius: 2em;
+  }

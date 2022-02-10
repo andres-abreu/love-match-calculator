@@ -127,6 +127,12 @@ h1 {
     background-color: rgb(238, 27, 238);
 }
 
+.play-again {
+  margin-top: 8em;
+  background-color: lightpink;
+  border: 3px dotted rgb(231, 28, 225);
+  border-radius: 2em;
+}
 
 
 
