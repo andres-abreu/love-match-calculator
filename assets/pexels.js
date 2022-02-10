@@ -34,8 +34,8 @@ fetch("https://api.pexels.com/v1/search?query=love", {
   })
   .then(data => {
     console.log(data)
-    pexelsImg1.setAttribute("src", data.photos[1].src.medium);
-    pexelsUrl1.setAttribute("href", data.photos[1].photographer_url);
+    pexelsImg1.setAttribute("src", data.photos[11].src.medium);
+    pexelsUrl1.setAttribute("href", data.photos[11].photographer_url);
 
     pexelsImg2.setAttribute("src", data.photos[2].src.medium);
     pexelsUrl2.setAttribute("href", data.photos[2].photographer_url);
@@ -46,8 +46,8 @@ fetch("https://api.pexels.com/v1/search?query=love", {
     pexelsImg4.setAttribute("src", data.photos[4].src.medium);
     pexelsUrl4.setAttribute("href", data.photos[4].photographer_url);
 
-    pexelsImg5.setAttribute("src", data.photos[5].src.medium);
-    pexelsUrl5.setAttribute("href", data.photos[5].photographer_url);
+    pexelsImg5.setAttribute("src", data.photos[10].src.medium);
+    pexelsUrl5.setAttribute("href", data.photos[10].photographer_url);
 
     pexelsImg6.setAttribute("src", data.photos[6].src.medium);
     pexelsUrl6.setAttribute("href", data.photos[6].photographer_url);
