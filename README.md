@@ -24,3 +24,4 @@ Git pages: https://zela7alex.github.io/love-match-calculator/
 ## 
 Github: https://github.com/Zela7alex/love-match-calculator
 ## Demo:
+[Love-Calculator-demo. 2.zip](https://github.com/Zela7alex/love-match-calculator/files/8044003/Love-Calculator-demo.2.zip)
