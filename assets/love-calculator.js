@@ -25,7 +25,7 @@ var getNamesPercent = function () {
                         // console.log(data.percentage)
                         var percent = data.percentage
                         console.log(percent)
-                        
+
                         //Append the percent to HTML
                         var container = document.querySelector('#percent-amnt');
                         container.textContent = ''
@@ -35,17 +35,17 @@ var getNamesPercent = function () {
 
                         if (listItem.textContent <= 40) {
                             setTimeout(function () {
-                                window.location.href = 'not-compatible.html'
-                            },3000)
+                                window.location.href = 'html/not-compatible.html'
+                            }, 3000)
                         }
 
                         if (listItem.textContent >= 41) {
                             setTimeout(function () {
-                                window.location.href = 'yes-compatible.html'
-                            },3000)
+                                window.location.href = 'html/yes-compatible.html'
+                            }, 3000)
                         }
 
-                        
+
                     })
             } else {
                 //In case there is an error
