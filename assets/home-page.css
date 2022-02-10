@@ -5,7 +5,14 @@
 }
 
 body {
+    background-image: url(../assets/img/cupids.webp);
+    background-size: contain;
+    background-image: cover;
     background-color: rgb(254, 226, 245);
+
+
+    opacity: .9
+    
 }
 
 h1 {
@@ -14,11 +21,43 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color:rgb(190, 37, 83);
+    color: maroon;
+    
+}
+
+h2 {
+    color:rgb(15, 3, 7);
+  font-size: 30px;
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+}
+#your_name {
+    font-size: larger;
+    font: bolder;
+    font: italic;
+    color: gray
+    
+    
+
+
+}
+#their_name {
+    
+    font-size: larger;
+    font: bolder;
+    font: italic;
+    color:gray
+    
+
+    
+
 }
 
 h4 {
     font-size: 1.5em;
+    color:rgb(73, 16, 16);
+    
 }
 
 .calculate {
@@ -32,11 +71,21 @@ h4 {
 }
 
 .content {
+    background-size:cover;
+   background-position: center;
     display: flex;
     align-items: center;
     justify-content: center; 
-    border: 9px dotted rgb(18, 16, 16);
+    border: 9px dotted rgb(110, 6, 6);
     padding-bottom: 5em;
+    height: 760px;
+    width: 800px;
+    top: 40px;
+    margin: 0 auto 35px auto;
+    opacity: .6;
+    
+    
+   
 
     
 }
