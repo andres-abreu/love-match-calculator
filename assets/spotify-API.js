@@ -30,7 +30,7 @@ var requestOptions = {
 
 };
 
-fetch("https://v1.nocodeapi.com/andresabreu/spotify/jRyLOewVmZIgHgYl/search?q=love", requestOptions)
+fetch("https://v1.nocodeapi.com/andresbizniz/spotify/cqEajwvTYUqyHiwL/search?q=love", requestOptions)
     .then(response => response.json())
     .then(result => {
         console.log("api-call", result)
@@ -91,7 +91,7 @@ var requestOptions = {
 
 };
 
-fetch("https://v1.nocodeapi.com/andresabreu/spotify/jRyLOewVmZIgHgYl/search?q=I hate love", requestOptions)
+fetch("https://v1.nocodeapi.com/andresbizniz/spotify/cqEajwvTYUqyHiwL/search?q=i hate love", requestOptions)
     .then(response => response.json())
     .then(result => {
         console.log("api-call", result)
