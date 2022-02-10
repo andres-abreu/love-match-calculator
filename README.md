@@ -1,8 +1,8 @@
-# love-match-calculator
+# :heart_decoration:Love-Match-Calculator :heart_decoration:
 See if you and your love are a great match.
 # 
 ## Description
-This love calculator was created using three seperate API's, from Spotify, Pexels and RapidAPI's "love calculator". Within this project we also used the following CDNS: Jquery (for shorter code), Materialize(for faster UX/UI) and Google fonts.
+This love calculator was created using three separate API's, from Spotify, Pexels and RapidAPI's "love calculator". Within this project we also used the following CDNS: Jquery (for shorter code), Materialize(for faster UX/UI) and Google fonts.
 
 ## Functionality
 The love calculator works as follows. As the user opens the page, they are first introduced with a modal "on button click" which explains how the love calculator works. They are then shown the love calculator which calculates their "love percentage" on request. The user is to input two names. One for their names and a second for their "lovers" name. Once the names are inputed, they can then click the "calculate percent" button and it will automatically populate the love percentage between them and the other name. 
