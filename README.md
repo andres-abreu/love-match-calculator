@@ -22,4 +22,4 @@ Pexels API :  https://www.pexels.com/api/documentation/
 ## 
 Git pages:
 ## 
-Github: 
+Github: https://github.com/Zela7alex/love-match-calculator
