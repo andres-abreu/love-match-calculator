@@ -20,6 +20,8 @@ Spotify API : https://developer.spotify.com/documentation/web-api/reference/#/op
 ## 
 Pexels API :  https://www.pexels.com/api/documentation/ 
 ## 
-Git pages:
+Git pages: https://zela7alex.github.io/love-match-calculator/
 ## 
 Github: https://github.com/Zela7alex/love-match-calculator
+## Demo:
+Love-Calculator-demo.
