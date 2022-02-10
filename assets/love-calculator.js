@@ -35,13 +35,13 @@ var getNamesPercent = function () {
 
                         if (listItem.textContent <= 40) {
                             setTimeout(function () {
-                                window.location.href = 'html/not-compatible.html'
+                                window.location.href = 'not-compatible.html'
                             }, 3000)
                         }
 
                         if (listItem.textContent >= 41) {
                             setTimeout(function () {
-                                window.location.href = 'html/yes-compatible.html'
+                                window.location.href = 'yes-compatible.html'
                             }, 3000)
                         }
 
