@@ -28,3 +28,9 @@ Github: https://github.com/Zela7alex/love-match-calculator
 
 https://user-images.githubusercontent.com/93490778/153490055-65dce615-db86-479d-8ea3-8f3ccebf342b.mp4
 
+<div id="badges">
+  <br/>
+  <br/>
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2F{username}1212%2Fhit-counter" alt="GH-count"/>
+  </div>
+
